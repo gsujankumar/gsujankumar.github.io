@@ -1,1 +1,125 @@
-Hello world
+<!DOCTYPE HTML>
+<html>
+<head><meta charset="utf-8">
+	<title>Sujan Gonugondla</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" /><!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link href="assets/css/main.css" rel="stylesheet" /><!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet" />
+</head>
+<body><!-- Header -->
+<section id="header">
+<header><span class="image avatar"><img alt="Avatar" src="img/profile.jpg" /> </span>
+<h1 id="logo"><a href="./">Sujan Gonugondla</a></h1>
+
+<p>Research Scientist at Amazon</p>
+
+<p>Ph.D., ECE-UIUC</p>
+</header>
+
+<nav id="nav">
+<ul>
+	<li><a class="active" href="#one">About</a></li>
+	<li><a href="#two">Research Overview</a></li>
+	<li><a href="#three">News</a></li>
+	<li><a href="publications.html">Publication List</a></li>
+	<li><a href="files/CV_Sujan.pdf">Curriculum vitae</a></li>
+</ul>
+</nav>
+
+<footer>
+<ul class="icons">
+	<li>
+	<ul class="icons">
+		<li><a class="icon  fa-envelope" href="mailto:sujan.gonugondla@gmail.com" title="Email"><span class="label">Email</span></a></li>
+		<li><a class="icon  fa-linkedin" href="https://www.linkedin.com/in/sujan-gonugondla-ab6787142/" target="_blank" title="LinkedIn"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://scholar.google.com/citations?user=F_ud9E4AAAAJ" class="ai ai-google-scholar-square ai-1x" target="_blank"  title="Google Scholar"><span class="label"></span></a></li>
+	</ul>
+	</li>
+</ul>
+</footer>
+</section>
+<!-- Wrapper -->
+
+<div id="wrapper"><!-- Main -->
+<div id="main"><!-- One -->
+<section id="one">
+<div class="container">
+<header class="major">
+<h2>About Me</h2>
+</header>
+
+<p>I am currently with Amazon as a Research Scientist.</p>
+
+<p>Prior to joining Amazon, I graduated with a Ph.D. in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign where I was advised by Prof. Naresh Shanbhag. I graduated from the Indian Institute of Technology Madras, with a bachelor&#39;s and master&#39;s degree in Electrical Engineering. My master&#39;s thesis was on optical phase-locked loops.</p>
+</div>
+</section>
+<!-- Two -->
+
+<section id="two">
+<div class="container">
+<h3>Research Overview</h3>
+
+<section>
+<p>My research broadly spans integrated circuit design and machine learning (ML). Specifically, I am interested in problems that require the implementation of ML on resource-constrained platforms. If you are interested in my research further check out <a href="publications.html">my publications</a>, or <a href="https://www.amazon.com/Deep-memory-Architectures-Machine-Learning/dp/3030359700/ref=sr_1_1?">this book</a> that I co-authored.</p>
+
+
+<p>Here are few of my recent projects:</p>
+
+<h4>Deep In-Memory Computing Architectures for Machine Learning</h4>
+
+<p>This project tackles the problem of high energy and latency costs of data movement between processor and memory. We propose deep in-memory architecture (DIMA) that tackles this problem by embedded computations into the memory arrays. DIMA drastically reduces memory read and data access costs by performing mixed-signal computations in the periphery of the memory array. We estimated that a DIMA-based architecture to accelerate Convolutional Neural Networks (CNN) that shows over 5 and 2.4 times simultaneous improvements in energy-efficiency and throughput. We demonstrated the DIMA concept by designed a multi-functional SRAM-based DIMA IC on 65 nm CMOS that can be reconfigured to implement multiple machine learning algorithms such as SVM, DNN, and k-NN while showing 10x energy savings and 5x throughput enhancement.</p>
+
+<h4>Application-Specific ML accelerators using In-Memory Architectures</h4>
+
+
+<p>In this project, we focus on designing ML accelerators for some very popular ML algorithms for the edge.  Designed the world&#39;s first dedicated IC for random forest algorithm using DIMA on 65 nm CMOS showing 6.8x improvement in energy-delay product. <br />
+<br />
+We also designed a dedicated key-word spotting IC that achieves state-of-the-art decision latency of 40us with decision energy &lt;0.5uJ/decision which translates to more than 24 times savings in the energy-delay product (EDP) of decisions over existing KWS ICs. This IC is ideal for products that have key-word triggered functionalities such as Amazon Alexa.</p>
+
+
+<h4>Variation-tolerant machine learning classifier via on-chip training </h4>
+
+
+<p>A major challenge in ICs that rely on analog computations such as DIMA, is its sensitivity to process variations. We studied the use of on-chip learning to achieve variation-tolerance in mixed-signal machine learning architectures. We designed a DIMA based classifier IC with an on-chip SGD based trainer on 65 nm CMOS which adapts to changing environment and process parameters. It demonstrates 2.4x energy reduction over previous ICs.</p>
+
+
+
+<h4>Machine learning acceleration using Beyond-CMOS devices</h4>
+
+<p>With CMOS scaling slowing down, new process technologies are needed to keep up with the demand for increased computing power. I worked on a broad spectrum of projects to address the challenges in realize ML accelerators using beyond CMOS devices: 1)  I designed a NAND flash-based DIMA for large-scale machine learning acceleration showing an 8x reduction in energy consumption. 2) I worked an ML accelerator using MRAM devices that achieve 4.5x and 70x lower energy and delay than their CMOS counterparts. I worked on an algorithm that achieves high-accuracy writes for RRAM crossbar-based machine learning accelerators at 5x-to-10x lower cost than standard program-verify methods.</p>
+
+</section>
+</div>
+</section>
+
+<section id="three">
+<div class="container">
+<h3>News</h3>
+Articles talking about my research and/or me:
+
+<section>
+<ul>
+	<li><a href="https://csl.illinois.edu/news/celebrating-our-graduates-sujan-gonugondla-phd-amazon">Celebrating Our Graduates: Sujan Gonugondla</a> - by Allie Arp in Coordinated Science Laboratory, 2020</li>
+	<li><a href="https://csl.illinois.edu/news/csl-students-awarded-prestigious-ieee-sscs-predoctoral-achievement-awards">CSL students awarded prestigious IEEE-SSCS Predoctoral Achievement Award</a> - by Allie Arp in Coordinated Science Laboratory, 2020</li>
+	<li><a href="https://cacm.acm.org/news/226538-to-speed-p-ai-mix-memory-and-processing/fulltext">To Speed Up AI, Mix Memory and Processing</a> - by Katherine Bourzac in IEEE Spectrum, 2018</li>
+	<li><a href="https://www.eetimes.com/7-ideas-for-ai-silicon-from-isscc/">7 Ideas for AI Silicon from ISSCC</a> - by Rick Merritt in EE Times, 2018</li>
+	<li><a href="https://csl.illinois.edu/news/university-illinois-micron-enhance-speed-and-battery-life-mobile-iot-devices-deep-memory">University of Illinois, Micron enhance speed and battery life of mobile, IoT devices with deep in-memory architecture</a> - by Kim Gudeman in Coordinated Science Laboratory, 2018</li>
+	<li><a href="https://csl.illinois.edu/news/gonugondla-wins-best-paper-award-ieee-conference">Gonugondla wins Best Paper Award at IEEE Conference</a> - by August Schiess in Coordinated Science Laboratory, 2016</li>
+</ul>
+</section>
+</div>
+</section>
+</div>
+<!-- Footer -->
+
+<section id="footer">
+<div class="container">
+<ul class="copyright">
+	<li>&copy; Sujan Gonugondla</li>
+	<li>Design: <a href="//html5up.net">HTML5 UP</a></li>
+</ul>
+</div>
+</section>
+</div>
+<!-- Scripts --><script src="assets/js/jquery.min.js"></script><script src="assets/js/jquery.scrollzer.min.js"></script><script src="assets/js/jquery.scrolly.min.js"></script><script src="assets/js/skel.min.js"></script><script src="assets/js/util.js"></script><!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]--><script src="assets/js/main.js"></script></body>
+</html>
