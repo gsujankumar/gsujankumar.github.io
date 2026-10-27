@@ -411,6 +411,14 @@ section + section {
   font-weight: 600;
 }
 
+.pub-equal {
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
 .pub-meta-row {
   display: flex;
   align-items: center;
